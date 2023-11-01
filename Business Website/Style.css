@@ -1,0 +1,165 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("MK1background.jpeg");
+    background-size: cover;
+    height: 100vh;
+    line-height: 1.5;
+    margin: 0;
+}
+
+main {
+    padding: 15rem;
+    max-width: 850px;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+main p {
+    text-align: center;
+}
+.Logo{
+    width: 240px;
+}
+
+header {
+    height: 20vh;
+    padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header nav {
+    flex-basis: 100%;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-container {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.menu-container ul {
+    list-style: none;
+    padding: 0;
+}
+.menu-container a {
+    display: block;
+    padding: 0.5rem 0;
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 0;
+}
+@media (min-width:900px) {
+    .menu-container {
+        max-height: 100%;
+        overflow: hidden;
+    }
+    header input, header label {
+        display: none;
+    }
+    header {
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    header nav ul {
+        display: flex;
+        gap: 4rem;
+        justify-content: flex-end;
+        font-size: 20px;
+    }
+    header h1 {
+        flex-basis: 30%;
+    }
+}
+
+form input:focus {
+    outline: none;
+}
+
+.Game {
+    border-radius: 10px 0px 10px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    padding: 0.3rem 0.75rem;
+    border: 0;
+    background-color:rgba(174, 17, 17, 1);
+}
+form input[type="button"]:active {
+    background-color: darkgrey;
+}
+
+p {
+    background-color: darkgoldenrod;
+    text-align: left;
+    font-size: 16px;
+}
+.fight {
+    background-color: maroon;
+    width: 107%;
+    display: flex;
+}
+
+.trailer {
+    padding: 1rem;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.press{
+    padding: 1rem;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px 0px 10px;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    padding: 0.3rem 0.75rem;
+    border: 0;
+    background-color: gold;
+}
+
+.roster {
+    padding: 1rem;
+    width: 600px;
+    display: flex;
+}
+
+form input:focus {
+    outline: none;
+}
+.push { 
+    padding: 1rem;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px 0px 10px;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    padding: 0.3rem 0.75rem;
+    border: 0;
+    background-color: gold;
+}
+form input[type="button"]:active {
+    background-color: darkgrey;
+}
+
